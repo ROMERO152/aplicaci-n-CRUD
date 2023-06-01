@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer proyecto CRUD</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="encabezado">
+        <img src="img/LOGO WEB.png" alt="">
+        <h1>Proyecto No. 2:Desarrollo de Software CRUD</h1>
+    </header>
+    <div id="contenedor">
+        <form id="formulario">
+            <div id="seccion">
+                <label for="tarea">Ingresa una tarea:</label>
+                <input type="text" id="tarea" name="tarea" required>
+            </div>
+            <div id="enviar">
+                <button type="submit">Agregar</button>
+            </div>
+        </form>
+        <div id="lista">
+            <ul id="listaTareas"></ul>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="crud.js"></script>
+</html>
