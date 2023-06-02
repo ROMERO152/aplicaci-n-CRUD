@@ -91,4 +91,13 @@ button{
 #enviar{
     padding-top: 15px;
 }
+#lista{
+    margin-top: 20px;
+    width: 900px;
+    height: auto;
+    background-color: #bdbdbd;
+    border-radius: 30px;
+    border: whitesmoke 3px solid;
+    
+}
 
