@@ -1,7 +1,41 @@
 
+  /* pantallas 999px-1500px */
+  @media screen and (min-width: 951px) and (max-width: 1200px){
 
+    #encabezado img{
+        height: 60px;
+        width: 140px;
+    }
+    #formulario{
+        height: 200px;
+        width: 900px;
+    }
+    #seccion{
+        width:900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        width: 850px;
+    }
+    label{
+        padding-left: 20px;
+    }
+    #enviar{
+        padding-top: 15px;
+    }
+    #lista{
+        width: 900px;  
+    }
+    #lista ul{
+        width: 900px;
+    }
+    
+    }
+    
   /* pantallas 768px-998px */
-@media screen and (min-width: 768px) and (max-width: 998px){
+@media screen and (min-width: 768px) and (max-width: 950px){
 
 #encabezado img{
     height: 60px;
@@ -13,10 +47,16 @@
 }
 #seccion{
     width:768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 label{
     padding-left: 20px;
     
+}
+input{
+    width: 700px;
 }
 #enviar{
     padding-top: 15px;
@@ -41,6 +81,12 @@ label{
     }
     #seccion{
         width:568px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input{
+        width: 540px;
     }
     label{
         padding-left: 10px;

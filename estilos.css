@@ -63,6 +63,8 @@ input{
     border: gray 2px solid;
     /* border: none; */
     outline:rgba(0,0,0, 0);
+    font-size: 20px;
+    padding-left: 15px;
 }
 label{
     font-size: 25px;
