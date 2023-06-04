@@ -37,28 +37,136 @@ label{
     }
     #formulario{
         height: 200px;
-        width: 768px;
+        width: 568px;
     }
     #seccion{
-        width:768px;
+        width:568px;
     }
     label{
-        padding-left: 20px;
+        padding-left: 10px;
+        font-size: 20px;
         
     }
     #enviar{
         padding-top: 15px;
     }
     #lista{
-        width: 768px;  
+        width:568px;  
     }
     #lista ul{
-        width: 750px;
+        width: 100%;
+        
     }
+    button{
+        height: 30px;
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    
 }
 
-@media screen and (min-width: 368px) and (max-width: 567px)
+@media screen and (min-width: 368px) and (max-width: 567px){
+    #encabezado img{
+        display: none;
+    }
+    #encabezado{
+        display: flex;
+        justify-content: center;
+    }
+    #formulario{
+        height: 180px;
+        width: 368px;
+    }
+    #seccion{
+        width:368px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    label{
+        padding-left: 10px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    input{
+        height: 35px;
+        width: 300px;
+        
+    }
+    #enviar{
+        padding-top: 15px;
+    }
+    #lista{
+        width:368px;
+    
+    }
+    #lista ul{
+        width: 100%;
+         
+        
+    }
+    button{
+        height: 30px;
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    
+}
+
 
 /* movil*/
-@media screen and (max-width: 368px)
+@media screen and (max-width: 368px){
+    #encabezado img{
+        display: none;
+    }
+    #encabezado{
+        display: flex;
+        justify-content: center;
+    }
+    #formulario{
+        height: 150px;
+        width: 300px;
+        border: whitesmoke 3px solid;
+    }
+    #seccion{
+        width:300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    label{
+        padding-left: 10px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    input{
+        height: 30px;
+        width: 260px;
+        
+    }
+    #enviar{
+        padding-top: 10px;
+    }
+    #lista{
+        width:368px;
+    
+    }
+    #lista ul{
+        width: 100%;
+         
+        
+    }
+    button{
+        height: 30px;
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    
+}
 
