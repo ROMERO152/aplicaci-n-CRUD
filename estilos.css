@@ -28,8 +28,8 @@ body{
     padding-right: 20px;
 }
 #contenedor{
-    padding-top: 80px;
-    height: 600px;
+    padding-top: 90px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@ label{
     font-weight: bold;
     
 }
-button{
+#agregar{
     height: 40px;
     width: 150px;
     font-size: 25px;
@@ -78,7 +78,16 @@ button{
     border-radius: 10px;
     border: #424242 2px solid;
     
-
+}
+button{
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #424242;
+    border-radius: 10px;
+    border: #424242 2px solid;
+    padding: 0px 30px;
 }
 #enviar :hover{
     background-color:#424242;
@@ -98,6 +107,20 @@ button{
     background-color: #bdbdbd;
     border-radius: 30px;
     border: whitesmoke 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+#lista ul{
+    width: 700px;
+    list-style: none;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 

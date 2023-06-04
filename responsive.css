@@ -1,0 +1,64 @@
+
+
+  /* pantallas 768px-998px */
+@media screen and (min-width: 768px) and (max-width: 998px){
+
+#encabezado img{
+    height: 60px;
+    width: 140px;
+}
+#formulario{
+    height: 200px;
+    width: 768px;
+}
+#seccion{
+    width:768px;
+}
+label{
+    padding-left: 20px;
+    
+}
+#enviar{
+    padding-top: 15px;
+}
+#lista{
+    width: 768px;  
+}
+#lista ul{
+    width: 750px;
+}
+
+}
+
+@media screen and (min-width: 568px) and (max-width: 767px){
+    #encabezado img{
+        height: 60px;
+        width: 140px;
+    }
+    #formulario{
+        height: 200px;
+        width: 768px;
+    }
+    #seccion{
+        width:768px;
+    }
+    label{
+        padding-left: 20px;
+        
+    }
+    #enviar{
+        padding-top: 15px;
+    }
+    #lista{
+        width: 768px;  
+    }
+    #lista ul{
+        width: 750px;
+    }
+}
+
+@media screen and (min-width: 368px) and (max-width: 567px)
+
+/* movil*/
+@media screen and (max-width: 368px)
+

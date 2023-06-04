@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer proyecto CRUD</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header id="encabezado">
@@ -19,15 +20,15 @@
                 <input type="text" id="tarea" name="tarea" required>
             </div>
             <div id="enviar">
-                <button type="submit">Agregar</button>
+                <button type="submit" id="agregar">Agregar</button>
             </div>
         </form>
         <div id="lista">
-            <ul id="listaTareas"></ul>
+            <ul id="lisTareas"></ul>
         </div>
         
     </div>
     
 </body>
-<script src="crud.js"></script>
+<script src="index.js"></script>
 </html>
