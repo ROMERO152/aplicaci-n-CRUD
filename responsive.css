@@ -125,14 +125,19 @@ label{
     #encabezado{
         display: flex;
         justify-content: center;
+        text-align: center;
+        height: 50px;
+    }
+    #contenedor{
+        padding-top: 60px;
     }
     #formulario{
         height: 150px;
-        width: 300px;
+        width: 280px;
         border: whitesmoke 3px solid;
     }
     #seccion{
-        width:300px;
+        width:280px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -153,19 +158,31 @@ label{
     #enviar{
         padding-top: 10px;
     }
+    #agregar{
+        font-size: 15px;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
     #lista{
-        width:368px;
+        width:260px;
+        padding: 10px;
     
     }
     #lista ul{
         width: 100%;
+        text-align: center;
          
         
     }
     button{
         height: 30px;
-        font-size: 15px;
-        padding: 0px 10px;
+        font-size: 10px;
+        width: 250px;
     }
     
 }
